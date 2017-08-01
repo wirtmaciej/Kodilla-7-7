@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+  box-sizing: border-box; }
+
+.h {
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.menu {
+  height: 10vh;
+  color: #rgb 48, 51, 77; }
+
+.hero {
+  color: #rgb 48, 51, 77; }
+
+/*# sourceMappingURL=style.css.map */

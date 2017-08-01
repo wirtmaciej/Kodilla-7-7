@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$color1: #fff;
+
+$color2: #rgb(48, 51, 77);
+
+$color3: #024de2;
+
+$color4: #000;
+
+* {box-sizing: border-box;}
+
+.h {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.h1 {}
+
+.menu {
+	height: 10vh;
+	color: $color2;
+}
+
+.hero {
+	color: $color2;
+}
