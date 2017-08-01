@@ -17,11 +17,52 @@ $color4: #000;
 
 .h1 {}
 
-.menu {
-	height: 10vh;
-	color: $color2;
+.background {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
 }
 
+.background__image {
+	@extend .background;
+	background-image: url("https://images.pexels.com/photos/185348/pexels-photo-185348.jpeg?h=350&auto=compress&cs=tinysrgb");
+}
+
+.container {
+	max-width: 1200 px;
+	margin: 0, auto;
+	border: red solid 2px;
+}
+
+.menu {
+	height: 10vh;
+}
+
+.picture {
+	padding: 0;
+	margin: 0, auto;
+}
+
+.unordList {
+	margin: 0;
+    padding: 0;
+    float: right; 
+}
+
+.unordList__item {
+	display: inline-block;
+}
+
+.link {
+	line-height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block; 
+}
+	
 .hero {
 	color: $color2;
 }
